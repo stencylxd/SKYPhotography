@@ -5,10 +5,9 @@ a { color: white; font-family: Arial; text-decoration: none; }
 .center { align-content: center; text-align: center; align-items: center; align-self: center; }
 .logo { background-color: black; width: 300px; height: 150px; padding-bottom: 30px; } 
 .image { transition-duration: 300ms; transform: scale(1, 1); width: 10%; height: 10%; border-style: solid; 
-    border-color: white; margin-bottom: 75px; margin-left: 95px; }
+    border-color: white; margin-bottom: 75px; margin-left: 95px; display: inline-block; }
 .image:hover { transition-duration: 300ms; transform: scale(2, 2); }
 .btn { border-radius: 7px; box-shadow: 3px 3px white; font-size: 17px; }
 .btn:active { box-shadow: 0px 0px white; transform: translateY(3px) translateX(3px); }
 .about { font-size: 17px; user-select: none; margin-left: 40px; }
 .aboutimage { float: left; margin-right: 20px; border-radius: 7px; width: 55%; height: 55%; }
-.image .lastimage { margin-bottom: 0px; }
