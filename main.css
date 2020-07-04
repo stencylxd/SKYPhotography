@@ -1,19 +1,23 @@
+/* Welcome to the CSS! 
+   Made by stencylxd! (Leo Markley in this case) */
+
+/* Basic website stuff! */
 body { background-color: black; }
 span { color: white; font-family: Arial; }
 p { color: white; font-family: Arial; }
 a { color: white; font-family: Arial; text-decoration: none; }
 .center { align-content: center; text-align: center; align-items: center; align-self: center; }
 
-.logo { background-color: black; width: 300px; height: 150px; margin-bottom: 30px; } 
-.sky-logo { position: relative; background-color: black; width: 10.5%; height: 10.5%; margin-bottom: 30px; top: -10px; }
-
+/* Gallery stuff! */
 .image { transition-duration: 300ms; transform: scale(1, 1); width: 10%; height: 10%; border-style: solid; 
     border-color: white; margin-bottom: 75px; margin-left: 95px; display: inline-block; }
 .image:hover { transition-duration: 300ms; transform: scale(2, 2); }
-.btn { border-radius: 7px; box-shadow: 3px 3px white; font-size: 17px; }
-.btn:active { box-shadow: 0px 0px white; transform: translateY(3px) translateX(3px); }
 .about { font-size: 17px; user-select: none; margin-left: 40px; }
 .aboutimage { float: left; margin-right: 20px; margin-bottom: 20px; border-radius: 7px; width: 50%; height: 50%; }
+
+/* Top navigation bar stuff! */
+.sky-logo { position: relative; background-color: black; width: 10.5%; height: 10.5%; margin-bottom: 30px; 
+    top: -10px; user-select: none; }
 .dropdown { display: block; top: 10px; left: 30px; position: absolute; }
 .dropelement { display: block; background-color: grey; color: white; padding: 16px; font-size: 16px; border: none; user-select: none; }
 .dropdown-content { display: none; position: absolute; background-color: lightgrey; min-width: 200px; }
@@ -21,11 +25,6 @@ a { color: white; font-family: Arial; text-decoration: none; }
 .dropdown-content a:hover { background-color: darkgrey; }
 .dropdown:hover .dropdown-content { display: block;}
 .dropdown:hover .dropelement { background-color: grey; }
-.dropdown-2 { display: block; position: absolute; }
-.dropelement-2 { text-align: center; display: block; background-color: dodgerblue; color: white; padding: 16px; font-size: 16px; border: none; user-select: none; }
-.dropdown-content-2 { display: none; position: absolute; background-color: lightgrey; min-width: 200px; }
-.dropdown-content-2 a { padding: 12px 16px; display: block; color: black; }
-.dropdown-content-2 a:hover { background-color: darkgrey; }
-.dropdown:hover .dropdown-content-2 { display: block;}
-.dropdown:hover .dropelement-2 { background-color: grey; }
+.dropelement-2 { text-align: center; background-color: darkgrey; display: block; color: white; padding: 12px 16px; font-size: 16px; 
+    border: none; user-select: none; }
 .main-container { position: relative; color: white; }
