@@ -10,7 +10,7 @@ a { color: white; font-family: Arial; text-decoration: none; }
 
 /* Gallery stuff! */
 .image { transition-duration: 300ms; transform: scale(1, 1); width: 10%; height: 10%; border-style: solid; 
-    border-color: black; margin-bottom: 75px; margin-left: 90px; display: inline-block; }
+    border-color: white; margin-bottom: 75px; margin-left: 90px; display: inline-block; }
 .image:hover { transition-duration: 300ms; transform: scale(2, 2); }
 
 /* About page stuff */
