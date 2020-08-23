@@ -3,7 +3,6 @@
 
 /* Basic website stuff! */
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-body, html { width: 100%; height: 100%; }
 span { color: white; font-family: Arial }
 p { color: white; font-family: Arial }
 a { color: white; font-family: Arial; text-decoration: none }
